@@ -9,6 +9,8 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import User from "./components/User/User";
 import ErrorPage from "./components/ErrorPage/ErrorPage"; // Custom Error Page Component
+import Github from "./components/Github/Github";
+
 
 
 // const router = createBrowserRouter([
@@ -38,7 +40,8 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/user/:userId" element={<User />} />
+      <Route path="/user/:userId" element={<User/>} />
+      <Route path="github" element={<Github />} />
     </Route>
   )
 );
