@@ -1,5 +1,11 @@
 "use strict";//to tell js to treat as modern code
 var name="Anwar" //due to global scope, it is not recommended to use var in modern programming
+// Note: Use only let and const do not use var.
+
+// var: Variables can be redeclared and updated. A global scope variable.
+// let: Variable cannot be re-declared but can be updated. A block scope variable
+// const: Variable cannot be re-declared or updated. A block scope variable
+
 const age=20 //const is block scoped
 //age=43 TypeError: Assignment to constant variable.
 //const name1; SyntaxError: Missing initializer in const declaration
