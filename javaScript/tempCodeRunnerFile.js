@@ -1,2 +1,1 @@
-console.log(name)
-// console.log(anotherName)
+console.log(username)
