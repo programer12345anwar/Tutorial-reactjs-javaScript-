@@ -52,7 +52,6 @@ console.log(t1)
  console.log(temp) //undefined
  temp=20
  console.log(temp) //20
- //symbol
- //object
+ 
 
 
