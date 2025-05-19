@@ -1,5 +1,7 @@
-//java script arrays resizable and can store multiple data types in single variable
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+//Array docs
 
+//java script arrays resizable and can store multiple data types in single variable
 const heros=["thor","ironman","spiderman",1234,5.6,true]
 
 // console.log(heros[0])

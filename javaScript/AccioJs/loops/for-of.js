@@ -1,7 +1,7 @@
 const arr=[1,2,3,4,5]
 
 for(let ele of arr){
-    console.log(ele)
+    console.log(ele)//ele is the each elements of the array
 }
 
 const name="Anwar"
