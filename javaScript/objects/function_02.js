@@ -18,4 +18,8 @@ const num2=arr.map((x)=>{
     return 3*x;
 })
 console.log(num2)
+
+//what is callback function
+// a call back function is a functionthat is passed as an argument to another function and is exzecuted after the completion of an operation. it's a way to handle asynchronous operation
+
 //higher order function: a function which takes another function as an argument is called higher order function
