@@ -1,6 +1,6 @@
 let count=0;
-// let content=document.getElementById("counter")
-let content=document.querySelector(".counter")
+let content=document.getElementById("counter")
+// let content=document.querySelector(".counter")
 let incrementbtn=document.getElementById("increment")
 let decrementbtn=document.getElementById("decrement")
 let resetbtn=document.getElementById("reset")
